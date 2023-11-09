@@ -1,0 +1,10 @@
+{
+	"profiles": {
+		"Itspecialist.Windows (Unpackaged)": {
+			"commandName": "Project"
+		},
+		"Itspecialist.Windows (Package)": {
+			"commandName": "MsixPackage"
+		}
+	}
+}

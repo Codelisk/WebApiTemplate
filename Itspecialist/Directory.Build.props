@@ -1,0 +1,12 @@
+<Project>
+
+  <Import Project="..\solution-config.props" Condition="exists('..\solution-config.props')" />
+  <Import Project="..\..\solution-config.props" Condition="exists('..\..\solution-config.props')" />
+  <Import Project="..\..\..\solution-config.props" Condition="exists('..\..\..\solution-config.props')" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)obj/generated</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+</Project>

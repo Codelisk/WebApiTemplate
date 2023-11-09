@@ -1,0 +1,59 @@
+﻿<Page x:Class="Itspecialist.Presentation.Shell"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:Itspecialist.Presentation"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:pr="using:Prism.Navigation.Regions"
+      xmlns:utu="using:Uno.Toolkit.UI"
+      d:DesignHeight="300"
+      d:DesignWidth="400"
+      mc:Ignorable="d">
+    <utu:ExtendedSplashScreen x:Name="Splash"
+                              HorizontalAlignment="Stretch"
+                              VerticalAlignment="Stretch"
+                              HorizontalContentAlignment="Stretch"
+                              VerticalContentAlignment="Stretch">
+        <utu:ExtendedSplashScreen.LoadingContentTemplate>
+            <DataTemplate>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <ProgressRing Grid.Row="1"
+                                  Width="100"
+                                  Height="100"
+                                  HorizontalAlignment="Center"
+                                  VerticalAlignment="Center"
+                                  IsActive="True" />
+                </Grid>
+            </DataTemplate>
+        </utu:ExtendedSplashScreen.LoadingContentTemplate>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackPanel Margin="20"
+                        HorizontalAlignment="Center"
+                        Spacing="15">
+                <StackPanel Orientation="Horizontal"
+                            Spacing="15">
+                    <Button Command="{Binding NavigateCommand}"
+                            CommandParameter="DistrictSelection">
+                        Navigate to View A
+                    </Button>
+                    <Button Command="{Binding NavigateCommand}"
+                            CommandParameter="ViewB">
+                        Navigate to View B
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+            <ContentControl Grid.Row="1"
+                            pr:RegionManager.RegionName="ContentRegion" />
+        </Grid>
+    </utu:ExtendedSplashScreen>
+</Page>

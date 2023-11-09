@@ -1,0 +1,9 @@
+<Project>
+  <ItemGroup>
+    <!-- Removes native usings to avoid Ambiguous reference -->
+    <Using Remove="@(Using->HasMetadata('Platform'))" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../Shared/Itspecialist.Foundation/GlobalUsings.cs" Link="GlobalUsings.cs" />
+  </ItemGroup>
+</Project>

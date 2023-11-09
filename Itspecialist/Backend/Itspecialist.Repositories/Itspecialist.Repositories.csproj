@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <PackageReference Include="AutoMapper" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Submodules\CodeGen\src\Common\Codelisk.GeneratorAttributes\Codelisk.GeneratorAttributes.csproj" PrivateAssets="all" OutputItemType="Analyzer"  />
+    <ProjectReference Include="..\..\Submodules\CodeGen\src\Generators\Web\WebRepositories.Contract.Generator\WebRepositories.Contract.Generator.csproj" PrivateAssets="all" OutputItemType="Analyzer"  />
+    <ProjectReference Include="..\..\Submodules\CodeGen\src\Generators\Web\WebRepositories.Generator\WebRepositories.Generator.csproj" PrivateAssets="all" OutputItemType="Analyzer"  />
+    <ProjectReference Include="..\..\Submodules\CodeGen\src\Submodules\AutoRegisterInject\src\AutoRegisterInject\Codelisk.AutoRegisterInject.Generator.csproj" PrivateAssets="all" OutputItemType="Analyzer" />
+    <ProjectReference Include="..\Itspecialist.Database\Itspecialist.Database.csproj" />
+      <ProjectReference Include="..\..\Shared\Itspecialist.Foundation\Itspecialist.Foundation.csproj" />
+  </ItemGroup>
+</Project>

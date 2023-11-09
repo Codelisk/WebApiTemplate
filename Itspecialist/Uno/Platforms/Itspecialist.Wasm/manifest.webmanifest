@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "Itspecialist",
+  "display": "standalone",
+  "name": "Itspecialist",
+  "short_name": "Itspecialist",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

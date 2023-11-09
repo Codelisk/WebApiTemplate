@@ -1,0 +1,10 @@
+global using AutoMapper;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+global using Itspecialist.Foundation.Dtos.Base;
+global using Itspecialist.Foundation.Entities;
+global using Itspecialist.Foundation.Dtos;
+global using Itspecialist.Foundation.Dtos.User;

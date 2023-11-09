@@ -1,0 +1,38 @@
+<Project>
+    <!--
+        This file is used to control the platforms compiled by visual studio, and
+            allow for a faster build when testing for a single platform.
+
+            Instructions:
+            1) Copy this file and remove the ".sample" name
+            2) Uncomment and adjust the properties below
+            3) Make sure to do a Rebuild, so that nuget restores the proper packages for the new target
+    -->
+
+    <PropertyGroup>
+      <LangVersion>preview</LangVersion>
+      <ImplicitUsings>enable</ImplicitUsings>
+      <Nullable>enable</Nullable>
+
+      <DebugType>portable</DebugType>
+      <DebugSymbols>True</DebugSymbols>
+
+      <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+
+
+  <PropertyGroup>
+    <OrderlyzeFoundationVersion>3.0.10</OrderlyzeFoundationVersion>
+    <CodeliskVersion>2.13.99</CodeliskVersion>
+    <MicrosoftAspNetCore>8.0.0-rc.2.23480.2</MicrosoftAspNetCore>
+    <MicrosoftEntityFrameworkCore>8.0.0-rc.2.23480.1</MicrosoftEntityFrameworkCore>
+    <MicrosoftExtensionsVersion>8.0.0-rc.2.23479.6</MicrosoftExtensionsVersion>
+  </PropertyGroup>
+
+  <ItemGroup Label="Global Package versions">
+    <PackageVersion Include="AutoMapper" Version="12.0.1" />
+    <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="$(MicrosoftAspNetCore)"  />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="$(MicrosoftExtensionsVersion)" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="$(MicrosoftExtensionsVersion)" />
+  </ItemGroup>
+</Project>
