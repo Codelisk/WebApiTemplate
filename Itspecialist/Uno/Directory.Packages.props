@@ -15,7 +15,7 @@
     <PackageVersion Include="Uno.Core.Extensions.Logging.Singleton" Version="4.0.1" />
     <PackageVersion Include="Uno.Extensions.Core.WinUI" Version="3.1.0-dev.3" />
     <PackageVersion Include="Uno.Extensions.Authentication" Version="3.0.10" />
-    <PackageVersion Include="Uno.Extensions.Authentication.WinUI" Version="3.1.0-dev.3" />
+    <PackageVersion Include="Uno.Extensions.Authentication.WinUI" Version="3.1.0-dev.76" />
     <PackageVersion Include="Uno.Extensions.Configuration" Version="3.1.0-dev.3" />
     <PackageVersion Include="Uno.Extensions.Hosting" Version="3.0.10" />
     <PackageVersion Include="Uno.Extensions.Hosting.WinUI" Version="3.1.0-dev.3" />
