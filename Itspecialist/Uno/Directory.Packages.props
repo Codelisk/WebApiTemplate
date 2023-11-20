@@ -33,7 +33,7 @@
     <PackageVersion Include="Uno.Extensions.Serialization" Version="3.0.10" />
     <PackageVersion Include="Uno.Extensions.Serialization.Http" Version="3.1.0-dev.3" />
     <PackageVersion Include="Uno.Extensions.Serialization.Refit" Version="3.1.0-dev.3" />
-    <PackageVersion Include="Uno.Material.WinUI" Version="4.1.0-dev.8" />
+    <PackageVersion Include="Uno.Material.WinUI" Version="4.1.0-dev.28" />
     <PackageVersion Include="Uno.Dsp.Tasks" Version="1.2.7" />
     <PackageVersion Include="Uno.Toolkit.WinUI" Version="5.1.0-dev.5" />
     <PackageVersion Include="Uno.Toolkit.WinUI.Material" Version="5.1.0-dev.5" />
