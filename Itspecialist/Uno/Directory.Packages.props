@@ -29,7 +29,7 @@
     <PackageVersion Include="Uno.Extensions.Logging.WinUI" Version="3.1.0-dev.3" />
     <PackageVersion Include="Uno.Extensions.Navigation" Version="3.0.10" />
     <PackageVersion Include="Uno.Extensions.Navigation.WinUI" Version="3.1.0-dev.3" />
-    <PackageVersion Include="Uno.Extensions.Navigation.Toolkit.WinUI" Version="3.1.0-dev.3" />
+    <PackageVersion Include="Uno.Extensions.Navigation.Toolkit.WinUI" Version="3.1.0-dev.104" />
     <PackageVersion Include="Uno.Extensions.Serialization" Version="3.0.10" />
     <PackageVersion Include="Uno.Extensions.Serialization.Http" Version="3.1.0-dev.3" />
     <PackageVersion Include="Uno.Extensions.Serialization.Refit" Version="3.1.0-dev.3" />
