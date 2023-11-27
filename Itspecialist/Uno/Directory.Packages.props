@@ -45,7 +45,7 @@
     <PackageVersion Include="Uno.Wasm.Bootstrap.Server" Version="8.0.0" />
     <PackageVersion Include="Uno.WinUI" Version="5.1.0-dev.267" />
     <PackageVersion Include="Uno.WinUI.Lottie" Version="5.1.0-dev.267" />
-    <PackageVersion Include="Uno.WinUI.DevServer" Version="5.1.0-dev.267" />
+    <PackageVersion Include="Uno.WinUI.DevServer" Version="5.1.0-dev.631" />
     <PackageVersion Include="Uno.WinUI.WebAssembly" Version="5.1.0-dev.267" />
     <PackageVersion Include="Xamarin.Google.Android.Material" Version="1.10.0.1" />
   </ItemGroup>
